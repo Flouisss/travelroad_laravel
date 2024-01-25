@@ -4,7 +4,7 @@
   </head>
 
   <body>
-    <h6>Prueba<h6>
+    <h6>Ultima Prueba<h6>
     <h1>My Travel Bucket List</h1>
     <h2>Places I'd Like to Visit</h2>
     <ul>
