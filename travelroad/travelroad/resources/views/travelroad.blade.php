@@ -1,23 +1,14 @@
-<html>
+<!DOCTYPE html>
   <head>
-    <title>Travel List</title>
+    <title>Travel List Laravel</title>
   </head>
 
   <body>
-    <h6>Ultima Prueba<h6>
     <h1>My Travel Bucket List</h1>
-    <h2>Places I'd Like to Visit</h2>
     <ul>
-      @foreach ($wished as $place)
-      <li>{{ $place->name }}</li>
-      @endforeach
-    </ul>
-
-    <h2>Places I've Already Been To</h2>
+	<li><a href="{{ url()/wished}}">Places I'd like to visit</a></li>
+	<li><a href="{{ url()/visited}}">Places I've Already Been To</a></li>
     <ul>
-      @foreach ($visited as $place)
-      <li>{{ $place->name }}</li>
-      @endforeach
-    </ul>
+    <li><p>Powered by <strong>Laravel</strong></p></li>
   </body>
 </html>
