@@ -13,7 +13,7 @@ ssh Luis@20.56.155.34 "
 	git fetch
 	git pull
 
-	cd travelroad_laravel/
+	cd ..
 	sudo cp -r travelroad/ /usr/share/nginx/
 	cd /usr/share/nginx/travelroad
 	sudo composer install
