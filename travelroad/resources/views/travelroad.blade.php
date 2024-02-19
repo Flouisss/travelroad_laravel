@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <head>
-    <title>Travel List Laravel</title>
+    <title> Prueba Travel List Laravel</title>
   </head>
 
   <body>
