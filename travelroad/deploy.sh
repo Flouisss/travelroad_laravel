@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo cp -r /usr/share/nginx/travelroad /home/pc12-dpl/travelroad_laravel/travelroad/
+sudo cp -rf /usr/share/nginx/travelroad /home/pc12-dpl/travelroad_laravel
 
 cd /home/pc12-dpl/travelroad_laravel/
 
