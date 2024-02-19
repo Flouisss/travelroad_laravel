@@ -14,7 +14,7 @@ Route::get('/wished', function () {
 });
 
 Route::get('/visited', function () {
-        $wished = DB::select('select * from places where visited = true'
+        $visited = DB::select('select * from places where visited = true'
 );
         return view('visited', ['visited' => $visited]);
 });
