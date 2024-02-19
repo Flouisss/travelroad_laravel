@@ -4,7 +4,7 @@
 use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
-  	$wished = view('travelroad');
+	return view('travelroad', );
 });
 
 Route::get('/wished', function () {
